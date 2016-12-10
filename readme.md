@@ -9,8 +9,8 @@ where M is a positive definite matrix, which should be learned from the dataset.
 We assume that the probability of x_j is a neighbour of x_i is
 
 	                  exp(-D(x_i, x_j))
-	p_{i,j} = ------------------------------
-		    sum_{k~=i}exp(-D(x_i, x_k))
+	p_{i,j} = ----------------------------------
+                      sum_{k~=i}exp(-D(x_i, x_k))
 
 and we want to maximize p_i which is
 
